@@ -12,7 +12,7 @@ public class MailRuAccountPage extends AbstractPage {
 	private static final By SEARCH_MAIL_INCOMING_MENU_LINK_LOCATOR = By.xpath("//*[contains(@class,'ico_folder_inbox')]");
 	private static final By SEARCH_MAIL_BASKET_MENU_LINK_LOCATOR = By.xpath("//*[@id='b-nav_folders']//i[contains(@class,'ico_folder_trash')]");
 	private static final By SEARCH_LOGOUT_LOCATOR = By.id("PH_logoutLink");
-	
+	Make all locators just private
 	
 	public MailRuAccountPage(WebDriver driver) {
 		super(driver);
